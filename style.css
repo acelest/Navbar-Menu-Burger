@@ -116,3 +116,15 @@ nav {
   background: gold;
   transform: rotate(-135deg);
 }
+
+@media screen and (max-width: 780px) {
+  .burger {
+    display: block;
+  }
+  .navigation a::after {
+    display: none;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+}
