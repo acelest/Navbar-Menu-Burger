@@ -134,4 +134,7 @@ nav {
     height: 50px;
     background: #333;
   }
+  .navigation.active {
+    top: 50px;
+  }
 }
